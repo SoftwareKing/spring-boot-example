@@ -50,5 +50,4 @@ public class StatelessToken implements AuthenticationToken {
     public Object getCredentials() {
         return clientDigest;
     }
-
 }
